@@ -2,7 +2,8 @@
 
 const config = {
   apiOrigins: {
-    production: 'https://wdi-library.herokuapp.com'
+    production: 'https://wdi-library.herokuapp.com',
+    development: 'https://wdi-library.herokuapp.com'
   }
 }
 
