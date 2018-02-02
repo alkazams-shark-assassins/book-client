@@ -1,0 +1,20 @@
+<h2>Books</h2>
+
+<table class="table table-striped" id="fridge-table">
+  <thead>
+    <tr>
+      <th>Book ID</th>
+      <th>Book Title</th>
+      <th>Book Author</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each books as |book|}}
+    <tr>
+      <td data-id="{{book.id}}">{{book.id}}</td>
+      <td data-title="{{book.title}}">{{book.title}}</td>
+      <td data-author="{{book.author}}">{{book.author}}</td>
+    </tr>
+    {{/each}}
+  </tbody>
+</table>
