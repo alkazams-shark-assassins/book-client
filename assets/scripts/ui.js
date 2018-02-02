@@ -6,7 +6,7 @@ const template = require('./books-listing.handlebars')
 const getAllBooksSuccess = function (data) {
   store.updateBooks = data.books
   const allBooksHTML = template({books: store.updateBooks})
-  $('book-div').append(allBooksHTML)
+  $('#book-div').append.(allBooksHTML)
 }
 
 const apiCallFailure = function (error) {
@@ -15,6 +15,6 @@ const apiCallFailure = function (error) {
 
 
 module.exports  = {
-getAllGamesSuccess,
+getAllBooksSuccess,
 apiCallFailure
    }
