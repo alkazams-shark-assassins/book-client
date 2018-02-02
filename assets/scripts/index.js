@@ -6,7 +6,7 @@ const bookEvents = require('./events')
 
 $(() => {
   setAPIOrigin(location, config)
-  $('#get-books-button').on('click', bookEvents.onGetAllBooks)
+  $('#get-book-button').on('click', bookEvents.onGetAllBooks)
 })
 
 // use require with a reference to bundle the file and use it in this file
